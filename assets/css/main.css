@@ -1,0 +1,16 @@
+/* Import Kodchasan font from Google Fonts - must be first */
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+/* Set Kodchasan as default font for the entire application */
+* {
+  font-family: 'Kodchasan', sans-serif;
+}
+
+/* Custom styles for sidebar tooltips */
+.group:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
